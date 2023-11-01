@@ -67,7 +67,7 @@ server.post(
 );
 
 // JWT options
-
+ 
 const opts = {};
 opts.jwtFromRequest = cookieExtractor;
 opts.secretOrKey = process.env.JWT_SECRET_KEY;
